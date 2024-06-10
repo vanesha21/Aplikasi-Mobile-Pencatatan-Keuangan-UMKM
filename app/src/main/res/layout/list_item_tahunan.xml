@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:elevation="12dp"
+        android:background="@drawable/radius_list_item_harian">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/tahun"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="2023" />
+
+            <TextView
+                android:id="@+id/jumlahpemasukan"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#8BC34A"
+                android:text="Rp. 0" />
+
+            <TextView
+                android:id="@+id/jumlahpengeluaran"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#E91E63"
+                android:text="Rp. 0" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

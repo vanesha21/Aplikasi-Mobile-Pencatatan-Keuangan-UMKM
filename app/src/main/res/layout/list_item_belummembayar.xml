@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="15dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/teksnama"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"
+            android:textColor="#B40569"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/tanggalmemesan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="tanggal"
+            android:textColor="#B40569" />
+
+        <TextView
+            android:id="@+id/kontakpesanan"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B40569"
+            android:layout_below="@id/teksnama"
+            android:paddingTop="8dp"
+            android:text="Nomor : " />
+
+        <TextView
+            android:id="@+id/kontak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B40569"
+            android:layout_toRightOf="@id/kontakpesanan"
+            android:layout_below="@id/teksnama"
+            android:paddingTop="8dp"
+            android:paddingLeft="6dp"
+            android:text="kontak" />
+
+        <TextView
+            android:id="@+id/pesananbarang"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:textColor="#B40569"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kontak"
+            android:paddingTop="8dp"
+            android:text="Pesanan : " />
+
+        <TextView
+            android:id="@+id/pesanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kontak"
+            android:textColor="#B40569"
+            android:layout_toRightOf="@id/pesananbarang"
+            android:paddingTop="8dp"
+            android:text="Pesanan" />
+
+        <TextView
+            android:id="@+id/hargabarang"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B40569"
+            android:layout_below="@id/pesananbarang"
+            android:paddingTop="8dp"
+            android:text="Harga : " />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pesanan"
+            android:textColor="#B40569"
+            android:layout_toRightOf="@id/hargabarang"
+            android:paddingTop="8dp"
+            android:paddingLeft="6dp"
+            android:text="Harga" />
+
+        <TextView
+            android:id="@+id/totalproduk"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B40569"
+            android:layout_below="@id/hargabarang"
+            android:paddingTop="8dp"
+            android:text="Total Barang : " />
+
+        <TextView
+            android:id="@+id/totalproduks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/harga"
+            android:textColor="#B40569"
+            android:layout_toRightOf="@id/totalproduk"
+            android:paddingTop="8dp"
+            android:paddingLeft="6dp"
+            android:text="Total" />
+
+        <Button
+            android:id="@+id/btnselesai"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalproduk"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#B40569"
+            android:text="Selesai" />
+
+        <Button
+            android:id="@+id/btnbatal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalproduk"
+            android:layout_toRightOf="@id/btnselesai"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="20dp"
+            android:text="Batal"
+            android:backgroundTint="#B40569"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

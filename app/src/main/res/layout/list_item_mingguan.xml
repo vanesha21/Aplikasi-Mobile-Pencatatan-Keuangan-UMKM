@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:elevation="12dp"
+        android:background="@drawable/radius_list_item_harian">
+
+        <TableRow>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="110dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tanggalmingguan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="29.10 - 04.11"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/jumlahpemasukan"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Rp. 0"
+                android:textColor="#8BC34A" />
+
+            <TextView
+                android:id="@+id/jumlahpengeluaran"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Rp. 0"
+                android:textColor="#E91E63" />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

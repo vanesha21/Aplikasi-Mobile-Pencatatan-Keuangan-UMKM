@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:elevation="12dp"
+        android:background="@drawable/radius_list_item_harian">
+
+        <TableRow
+            android:id="@+id/tampilanpemasukandanpengeluaran"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="29.10" />
+
+            <TextView
+                android:id="@+id/row1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#4CAF50" />
+
+            <TextView
+                android:id="@+id/totalharga"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="15.000"
+                android:textColor="#8BC34A" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:id="@+id/kategori"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Sandal" />
+
+            <TextView
+                android:id="@+id/totalbarang"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="2 pcs" />
+
+            <TextView
+                android:id="@+id/totalhargabarang"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="15.000"
+                android:textColor="#8BC34A" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>
